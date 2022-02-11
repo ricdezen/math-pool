@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="EN-en">
+
+<head>
+    <title>math-pool tests</title>
+    <meta charset="utf-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400&700&display=swap');
+        body {
+            font-family: 'Ubuntu Mono', monospace;
+            font-weight: 400;
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+    <script type="module">
+        import * as module from "./test/script.js";
+        document.getElementById("output").textContent = module.entry();
+        console.log(module.main);
+    </script>
+</head>
+
+<body>
+
+    <h1 style="text-align: center; font-weight: 700;">
+        Running unit tests for math-pool
+    </h1>
+
+    <div>Here shalt be some feedback about the unit tests.</div>
+    <div id="output"></div>
+
+</body>
+
+</html>
