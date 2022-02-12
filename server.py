@@ -18,7 +18,7 @@ def main():
     }
     server = socketserver.TCPServer(("", 8000), Handler)
     print("Serving at port 8000")
-    server.serve_forever() 
+    server.serve_forever()
 
 
 if __name__ == "__main__":
